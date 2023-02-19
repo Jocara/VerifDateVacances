@@ -28,21 +28,34 @@ namespace Validation_dates_vancances_solaires
             this.labelDateFinResa.Text = "";
             this.btnValidation.Enabled = false;
             this.dateDebutResa.MinDate = DateTime.Now;
+            this.groupBoxResultat.Visible = false;
+            this.labelResultat.Text = "";
         }
 
 
-        private async void CheckInfoDépartment(object sender, EventArgs e)
+        private void CheckInfoDépartment(object sender, EventArgs e)
         {
-            if (this.textDepartement.Text == "" && this.TexBoxNbrNuitees.Text =="")
+            this.groupBoxResultat.Visible = false;
+            if (this.textDepartement.Text == "" && this.TexBoxNbrNuitees.Text == "")
             {
                 this.btnValidation.Enabled = false;
             }
         }
 
 
-            private async void GetInfoDépartment(object sender, EventArgs e)
+        private void GetInfoDépartment(object sender, EventArgs e)
         {
-            string numeroDepartment = this.textDepartement.Text;
+            string numeroDepartment;
+            if (new[] { "01", "02", "03", "04", "05", "06", "07", "08", "09" }.Contains(this.textDepartement.Text))
+            {
+                numeroDepartment = this.textDepartement.Text.Substring(1, 1);
+            }
+            else
+            {
+                numeroDepartment = this.textDepartement.Text;
+            }
+
+
             string nomDepartment;
             string zone;
             //recherche si le département existe
@@ -72,6 +85,7 @@ namespace Validation_dates_vancances_solaires
                     this.labelNomDepartement.Text = "";
                     this.btnValidation.Enabled = false;
                     this.textDepartement.Text = "";
+                    this.groupBoxResultat.Visible = false;
                 }
 
 
@@ -79,13 +93,15 @@ namespace Validation_dates_vancances_solaires
             if (this.textDepartement.Text == "" || this.TexBoxNbrNuitees.Text == "")
             {
                 this.btnValidation.Enabled = false;
+                this.groupBoxResultat.Visible = false;
             }
 
         }
         private void PullDateFinResa(object sender, EventArgs e)
         {
             DateTime DTDebutResa = DateTime.Parse(this.dateDebutResa.Text);
-
+            this.groupBoxResultat.Visible = false;
+            this.labelResultat.Visible = false;
             if (this.TexBoxNbrNuitees.Text != "")
             {
                 DateTime DTFinResa = DTDebutResa.AddDays(Convert.ToInt16(this.TexBoxNbrNuitees.Text));
@@ -101,6 +117,8 @@ namespace Validation_dates_vancances_solaires
             if (this.textDepartement.Text == "" && this.TexBoxNbrNuitees.Text == "")
             {
                 this.btnValidation.Enabled = false;
+                this.labelResultat.Visible = false;
+                this.groupBoxResultat.Visible = false;
             }
 
         }
@@ -117,25 +135,37 @@ namespace Validation_dates_vancances_solaires
             {
                 this.labelErreurNbrNuitees.Text = "Vous devez saisir un nombre entier";
                 this.btnValidation.Enabled = false;
+                this.labelResultat.Visible = false;
+                this.groupBoxResultat.Visible = false;
             }
         }
-        
+
         private async void btnValidation_Click(object sender, EventArgs e)
         {
             DateTime dtDebutResa = DateTime.Parse(this.dateDebutResa.Text);
 
             if (this.TexBoxNbrNuitees.Text != "")
             {
+                this.labelResultat.Visible = true;
                 DateTime dtFinResa = dtDebutResa.AddDays(Convert.ToInt16(this.TexBoxNbrNuitees.Text));
                 this.labelDateFinResa.Text = dtFinResa.ToString("dddd dd MMMM yyyy");
                 CallApiVacancesScolaires.Vacance vacance = await CallApiVacancesScolaires.CallApiVS(this.labelZone.Text, dtDebutResa, dtFinResa, this.TexBoxNbrNuitees.Text, this.labelZone.Text);
                 if (vacance != null)
                 {
-                    this.labelResultat.Text = "ok";
+                    this.groupBoxResultat.Visible = true;
+                    this.labelResultat.BackColor = Color.LimeGreen;
+                    this.labelResultat.Text = "Valide";
+                    this.labelVSAnneeScolaire.Text = "Année scolaire " + vacance.AnneeScolaire;
+                    this.labelVSDateDebut.Text = "Du " + vacance.DateDebut.Substring(0, 10);
+                    this.labelVSDateFin.Text = "Au " + vacance.DateFin.Substring(0, 10); ;
+                    this.labelVSZone.Text = vacance.Zone;
+                    this.labelVSDescription.Text = vacance.Description;
                 }
                 else
                 {
-                    this.labelResultat.Text = "KO";
+                    this.labelResultat.Text = "Non Valide";
+                    this.labelResultat.BackColor = Color.Red;
+                    this.groupBoxResultat.Visible = false;
                 }
 
             }

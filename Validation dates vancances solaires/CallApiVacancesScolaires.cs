@@ -50,7 +50,7 @@ namespace Validation_dates_vancances_solaires
                     {
                         DateTime dateDebutPeriodeVS =  DateTime.Parse(joVacancesScolaires["fields"]["start_date"].ToString());
                         DateTime dateFinPeriodeVS = DateTime.Parse(joVacancesScolaires["fields"]["end_date"].ToString());
-                        if (dateDebutResa >= dateFinPeriodeVS && dateFinResa <= dateFinPeriodeVS)
+                        if (dateDebutResa >= dateDebutPeriodeVS && dateFinResa <= dateFinPeriodeVS)
                         {
                             Vacance vacance = new Vacance();
                             vacance.DateDebut = joVacancesScolaires["fields"]["start_date"].ToString();

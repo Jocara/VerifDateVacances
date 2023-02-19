@@ -45,9 +45,16 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.labelVSDescription = new System.Windows.Forms.Label();
+            this.labelVSZone = new System.Windows.Forms.Label();
+            this.labelVSDateDebut = new System.Windows.Forms.Label();
+            this.labelVSAnneeScolaire = new System.Windows.Forms.Label();
+            this.labelVSDateFin = new System.Windows.Forms.Label();
+            this.groupBoxResultat = new System.Windows.Forms.GroupBox();
             this.labelResultat = new System.Windows.Forms.Label();
             this.groupBoxDepartement.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBoxResultat.SuspendLayout();
             this.SuspendLayout();
             // 
             // textDepartement
@@ -61,9 +68,13 @@
             // 
             // btnValidation
             // 
-            this.btnValidation.Location = new System.Drawing.Point(368, 221);
+            this.btnValidation.FlatAppearance.BorderColor = System.Drawing.Color.Green;
+            this.btnValidation.FlatAppearance.BorderSize = 2;
+            this.btnValidation.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.btnValidation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnValidation.Location = new System.Drawing.Point(421, 202);
             this.btnValidation.Name = "btnValidation";
-            this.btnValidation.Size = new System.Drawing.Size(209, 47);
+            this.btnValidation.Size = new System.Drawing.Size(145, 148);
             this.btnValidation.TabIndex = 1;
             this.btnValidation.Text = "Valider";
             this.btnValidation.UseVisualStyleBackColor = true;
@@ -194,7 +205,7 @@
             this.groupBox1.Controls.Add(this.labelDateFinResa);
             this.groupBox1.Controls.Add(this.TexBoxNbrNuitees);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(368, 9);
+            this.groupBox1.Location = new System.Drawing.Point(28, 191);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(379, 165);
             this.groupBox1.TabIndex = 9;
@@ -219,32 +230,97 @@
             this.label6.TabIndex = 9;
             this.label6.Text = "Fin de la réservation";
             // 
+            // labelVSDescription
+            // 
+            this.labelVSDescription.AutoSize = true;
+            this.labelVSDescription.Location = new System.Drawing.Point(15, 23);
+            this.labelVSDescription.Name = "labelVSDescription";
+            this.labelVSDescription.Size = new System.Drawing.Size(105, 15);
+            this.labelVSDescription.TabIndex = 11;
+            this.labelVSDescription.Text = "labelVSDescription";
+            // 
+            // labelVSZone
+            // 
+            this.labelVSZone.AutoSize = true;
+            this.labelVSZone.Location = new System.Drawing.Point(15, 42);
+            this.labelVSZone.Name = "labelVSZone";
+            this.labelVSZone.Size = new System.Drawing.Size(72, 15);
+            this.labelVSZone.TabIndex = 12;
+            this.labelVSZone.Text = "labelVSZone";
+            // 
+            // labelVSDateDebut
+            // 
+            this.labelVSDateDebut.AutoSize = true;
+            this.labelVSDateDebut.Location = new System.Drawing.Point(15, 80);
+            this.labelVSDateDebut.Name = "labelVSDateDebut";
+            this.labelVSDateDebut.Size = new System.Drawing.Size(101, 15);
+            this.labelVSDateDebut.TabIndex = 13;
+            this.labelVSDateDebut.Text = "labelVSDateDebut";
+            // 
+            // labelVSAnneeScolaire
+            // 
+            this.labelVSAnneeScolaire.AutoSize = true;
+            this.labelVSAnneeScolaire.Location = new System.Drawing.Point(15, 61);
+            this.labelVSAnneeScolaire.Name = "labelVSAnneeScolaire";
+            this.labelVSAnneeScolaire.Size = new System.Drawing.Size(120, 15);
+            this.labelVSAnneeScolaire.TabIndex = 14;
+            this.labelVSAnneeScolaire.Text = "labelVSAnneeScolaire";
+            // 
+            // labelVSDateFin
+            // 
+            this.labelVSDateFin.AutoSize = true;
+            this.labelVSDateFin.Location = new System.Drawing.Point(15, 99);
+            this.labelVSDateFin.Name = "labelVSDateFin";
+            this.labelVSDateFin.Size = new System.Drawing.Size(85, 15);
+            this.labelVSDateFin.TabIndex = 15;
+            this.labelVSDateFin.Text = "labelVSDateFin";
+            // 
+            // groupBoxResultat
+            // 
+            this.groupBoxResultat.Controls.Add(this.labelVSDescription);
+            this.groupBoxResultat.Controls.Add(this.labelVSDateFin);
+            this.groupBoxResultat.Controls.Add(this.labelVSZone);
+            this.groupBoxResultat.Controls.Add(this.labelVSAnneeScolaire);
+            this.groupBoxResultat.Controls.Add(this.labelVSDateDebut);
+            this.groupBoxResultat.Location = new System.Drawing.Point(347, 52);
+            this.groupBoxResultat.Name = "groupBoxResultat";
+            this.groupBoxResultat.Size = new System.Drawing.Size(219, 124);
+            this.groupBoxResultat.TabIndex = 16;
+            this.groupBoxResultat.TabStop = false;
+            this.groupBoxResultat.Text = "Vacances scolaires";
+            // 
             // labelResultat
             // 
-            this.labelResultat.AutoSize = true;
-            this.labelResultat.Location = new System.Drawing.Point(388, 184);
+            this.labelResultat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelResultat.Location = new System.Drawing.Point(347, 18);
             this.labelResultat.Name = "labelResultat";
-            this.labelResultat.Size = new System.Drawing.Size(74, 15);
-            this.labelResultat.TabIndex = 10;
+            this.labelResultat.Size = new System.Drawing.Size(219, 31);
+            this.labelResultat.TabIndex = 0;
             this.labelResultat.Text = "labelResultat";
+            this.labelResultat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(840, 327);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(611, 377);
             this.Controls.Add(this.labelResultat);
+            this.Controls.Add(this.groupBoxResultat);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBoxDepartement);
             this.Controls.Add(this.btnValidation);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "main";
-            this.Text = "Validation des dates de vacances scolaire";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Validation des dates de vacances scolaires";
             this.groupBoxDepartement.ResumeLayout(false);
             this.groupBoxDepartement.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBoxResultat.ResumeLayout(false);
+            this.groupBoxResultat.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -267,6 +343,12 @@
         private GroupBox groupBox1;
         private Label label4;
         private Label label6;
+        private Label labelVSDescription;
+        private Label labelVSZone;
+        private Label labelVSDateDebut;
+        private Label labelVSAnneeScolaire;
+        private Label labelVSDateFin;
+        private GroupBox groupBoxResultat;
         private Label labelResultat;
     }
 }
