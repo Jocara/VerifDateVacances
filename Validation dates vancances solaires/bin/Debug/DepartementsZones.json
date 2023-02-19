@@ -1,0 +1,519 @@
+{
+  "departement": [
+      {
+      "NumeroDepartement": "1",
+      "NomDepartement": "Ain",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "2",
+      "NomDepartement": "Aisne",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "3",
+      "NomDepartement": "Allier",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "4",
+      "NomDepartement": "Alpes-de-Haute-Provence",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "5",
+      "NomDepartement": "Hautes-Alpes",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "6",
+      "NomDepartement": "Alpes-Maritimes",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "7",
+      "NomDepartement": "Ardèche",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "8",
+      "NomDepartement": "Ardennes",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "9",
+      "NomDepartement": "Ariège",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "10",
+      "NomDepartement": "Aube",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "11",
+      "NomDepartement": "Aude",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "12",
+      "NomDepartement": "Aveyron",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "13",
+      "NomDepartement": "Bouches-du-Rhône",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "14",
+      "NomDepartement": "Calvados",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "15",
+      "NomDepartement": "Cantal",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "16",
+      "NomDepartement": "Charente",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "17",
+      "NomDepartement": "Charente-Maritime",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "18",
+      "NomDepartement": "Cher",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "19",
+      "NomDepartement": "Corrèze",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "2A",
+      "NomDepartement": "Corse-du-Sud",
+      "Zone": "Corse"
+    },
+	    {
+      "NumeroDepartement": "2a",
+      "NomDepartement": "Corse-du-Sud",
+      "Zone": "Corse"
+    },
+    {
+      "NumeroDepartement": "2B",
+      "NomDepartement": "Haute-Corse",
+      "Zone": "Corse"
+    },
+	    {
+      "NumeroDepartement": "2b",
+      "NomDepartement": "Haute-Corse",
+      "Zone": "Corse"
+    },
+    {
+      "NumeroDepartement": "21",
+      "NomDepartement": "Côte-d'Or",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "22",
+      "NomDepartement": "Côtes d'Armor",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "23",
+      "NomDepartement": "Creuse",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "24",
+      "NomDepartement": "Dordogne",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "25",
+      "NomDepartement": "Doubs",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "26",
+      "NomDepartement": "Drôme",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "27",
+      "NomDepartement": "Eure",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "28",
+      "NomDepartement": "Eure-et-Loir",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "29",
+      "NomDepartement": "Finistère",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "30",
+      "NomDepartement": "Gard",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "31",
+      "NomDepartement": "Haute-Garonne",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "32",
+      "NomDepartement": "Gers",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "33",
+      "NomDepartement": "Gironde",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "34",
+      "NomDepartement": "Hérault",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "35",
+      "NomDepartement": "Ille-et-Vilaine",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "36",
+      "NomDepartement": "Indre",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "37",
+      "NomDepartement": "Indre-et-Loire",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "38",
+      "NomDepartement": "Isère",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "39",
+      "NomDepartement": "Jura",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "40",
+      "NomDepartement": "Landes",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "41",
+      "NomDepartement": "Loir-et-Cher",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "42",
+      "NomDepartement": "Loire",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "43",
+      "NomDepartement": "Haute-Loire",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "44",
+      "NomDepartement": "Loire-Atlantique",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "45",
+      "NomDepartement": "Loiret",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "46",
+      "NomDepartement": "Lot",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "47",
+      "NomDepartement": "Lot-et-Garonne",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "48",
+      "NomDepartement": "Lozère",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "49",
+      "NomDepartement": "Maine-et-Loire",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "50",
+      "NomDepartement": "Manche",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "51",
+      "NomDepartement": "Marne",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "52",
+      "NomDepartement": "Haute-Marne",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "53",
+      "NomDepartement": "Mayenne",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "54",
+      "NomDepartement": "Meurthe-et-Moselle",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "55",
+      "NomDepartement": "Meuse",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "56",
+      "NomDepartement": "Morbihan",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "57",
+      "NomDepartement": "Moselle",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "58",
+      "NomDepartement": "Nièvre",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "59",
+      "NomDepartement": "Nord",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "60",
+      "NomDepartement": "Oise",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "61",
+      "NomDepartement": "Orne",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "62",
+      "NomDepartement": "Pas-de-Calais",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "63",
+      "NomDepartement": "Puy-de-Dôme",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "64",
+      "NomDepartement": "Pyrénées-Atlantiques",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "65",
+      "NomDepartement": "Hautes-Pyrénées",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "66",
+      "NomDepartement": "Pyrénées-Orientales",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "67",
+      "NomDepartement": "Bas-Rhin",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "68",
+      "NomDepartement": "Haut-Rhin",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "69",
+      "NomDepartement": "Rhône",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "70",
+      "NomDepartement": "Haute-Saône",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "71",
+      "NomDepartement": "Saône-et-Loire",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "72",
+      "NomDepartement": "Sarthe",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "73",
+      "NomDepartement": "Savoie",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "74",
+      "NomDepartement": "Haute-Savoie",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "75",
+      "NomDepartement": "Paris",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "76",
+      "NomDepartement": "Seine-Maritime",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "77",
+      "NomDepartement": "Seine-et-Marne",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "78",
+      "NomDepartement": "Yvelines",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "79",
+      "NomDepartement": "Deux-Sèvres",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "80",
+      "NomDepartement": "Somme",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "81",
+      "NomDepartement": "Tarn",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "82",
+      "NomDepartement": "Tarn-et-Garonne",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "83",
+      "NomDepartement": "Var",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "84",
+      "NomDepartement": "Vaucluse",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "85",
+      "NomDepartement": "Vendée",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "86",
+      "NomDepartement": "Vienne",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "87",
+      "NomDepartement": "Haute-Vienne",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "88",
+      "NomDepartement": "Vosges",
+      "Zone": "B"
+    },
+    {
+      "NumeroDepartement": "89",
+      "NomDepartement": "Yonne",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "90",
+      "NomDepartement": "Territoire de Belfort",
+      "Zone": "A"
+    },
+    {
+      "NumeroDepartement": "91",
+      "NomDepartement": "Essonne",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "92",
+      "NomDepartement": "Hauts-de-Seine",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "93",
+      "NomDepartement": "Seine-St-Denis",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "94",
+      "NomDepartement": "Val-de-Marne",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "95",
+      "NomDepartement": "Val-d'Oise",
+      "Zone": "C"
+    },
+    {
+      "NumeroDepartement": "971",
+      "NomDepartement": "Guadeloupe",
+      "Zone": "DOM"
+    },
+    {
+      "NumeroDepartement": "972",
+      "NomDepartement": "Martinique",
+      "Zone": "DOM"
+    },
+    {
+      "NumeroDepartement": "973",
+      "NomDepartement": "Guyane",
+      "Zone": "DOM"
+    },
+    {
+      "NumeroDepartement": "974",
+      "NomDepartement": "La Réunion",
+      "Zone": "DOM"
+    },
+    {
+      "NumeroDepartement": "976",
+      "NomDepartement": "Mayotte",
+      "Zone": "DOM"
+    }
+  ]
+}
